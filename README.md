@@ -1,11 +1,11 @@
-# react-native-equalizer
+# react-native-number-enumerator
 
-A component that emulates an equalizer.
+Animated label with number counting upwards to a specific number.
 
 ## Installation
 
 ````sh
-    npm install react-native-equalizer
+    npm install react-native-number-enumeratorä
 ````
 
 ## Usage
@@ -16,16 +16,16 @@ From the example
     import React from 'react';
     import { StyleSheet, Text, View } from 'react-native';
 
-    import Equalizer from 'react-native-equalizer'
+    import NumberEnumerator from 'react-native-number-enumerator'
 
     export default class App extends React.Component {
-    render() {
-        return (
-        <View style={styles.container}>
-            <Equalizer maximumValue={100} data={{a: {value: 0, label: 'Bass'}, b: {value:50, label: 'Trible'}, c: {value: 50, label: 'Test'}}} />
-        </View>
-        );
-    }
+        render() {
+            return (
+            <View style={styles.container}>
+                <NumberEnumerator text="$%s" value={280} interval={10} step={5} />
+            </View>
+            );
+        }
     }
 
     const styles = StyleSheet.create({
@@ -36,6 +36,7 @@ From the example
             justifyContent: 'center',
         },
     });
+
 ````
 
 ## Author

@@ -31,5 +31,6 @@ export default class NumberEnumerator extends React.Component {
 
 NumberEnumerator.propTypes = {
     value: PropTypes.number.isRequired,
+    step: PropTypes.number.isRequired,
     interval: PropTypes.number.isRequired
 };
