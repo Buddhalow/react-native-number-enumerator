@@ -1,8 +1,8 @@
 {
   "name": "react-native-number-enumerator",
-  "version": "0.2.83",
+  "version": "0.2.86",
   "description": "A number view that enumerates up",
-  "main": "index.js",
+  "main": "lib/NumberEnumerator.js",
   "repository": {
     "type": "git",
     "url": "git@github.com/Buddhalow/react-native-number-enumerator.git"
